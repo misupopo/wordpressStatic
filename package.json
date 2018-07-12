@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --progress --config=webpack.config.js"
+    "build": "webpack --progress --config=webpack.config.js",
+    "watch": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
     "babel-loader": "^7.1.0",
     "babel-plugin-espower": "^2.3.2",
     "babel-preset-env": "^1.5.2",
-    "bootstrap-sass": "^3.3.7",
+    "bootstrap": "^4.1.1",
     "css-loader": "^0.28.4",
     "eslint": "^4.0.0",
     "eslint-loader": "^1.8.0",
@@ -39,6 +40,6 @@
     "yarn": "^1.7.0"
   },
   "dependencies": {
-    "jquery": "^3.2.1"
+    "jquery": "^3.3.1"
   }
 }

@@ -73,7 +73,14 @@ global $twentyseventeencounter;
 				<?php endif; ?>
 			<?php endif; ?>
 
+
 		</div><!-- .wrap -->
 	</div><!-- .panel-content -->
-
 </article><!-- #post-## -->
+
+<!-- paraxの画像のテスト -->
+<div class="fade-up fade-ani">
+    <img class="testImage" src="http://localhost:8091/wordpress/wp-content/themes/twentyseventeen/assets/images/header.jpg" />
+</div>
+
+

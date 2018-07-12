@@ -36,7 +36,7 @@ module.exports = {
         "template-curly-spacing": "warn",
         "yield-star-spacing": "warn"
     },
-    // An environment defines global variables that are predefined. 
+    // An environment defines global variables that are predefined.
     "env": {
         "browser": true,
         "node": true,
